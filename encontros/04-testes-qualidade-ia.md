@@ -24,5 +24,5 @@ A IA é uma aliada formidável no **Test-Driven Development (TDD)**. Ela não de
 
 ## Exercício Prático
 1. Escolha uma lógica de negócio sem testes no seu repositório.
-2. Peça ao Cursor: "Escreva uma suíte de testes unitários para este arquivo, garantindo que o mock do banco de dados seja isolado".
+2. Peça ao Gemini CLI: "Escreva uma suíte de testes unitários para este arquivo, garantindo que o mock do banco de dados seja isolado".
 3. Tente fazer a IA "quebrar" seu código sugerindo inputs inesperados.

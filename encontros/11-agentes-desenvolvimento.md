@@ -21,7 +21,7 @@ Agentes são o próximo nível da IA. Diferente de um chat onde você precisa co
 "/bug: A tela de checkout está falhando quando o endereço do usuário não possui número. Pesquise onde essa validação ocorre e corrija para que o campo seja opcional."
 
 ## Sugestões de Ferramentas
-- **GitHub Copilot Extensions:** Fique atento à integração de agentes diretamente no GitHub.
+- **Gemini CLI Custom Agents:** Crie agentes especializados para tarefas de nicho no seu projeto.
 
 ## Exercício Prático
 1. Se possível, instale o **Aider** ou use o **GPT-Engineer**.

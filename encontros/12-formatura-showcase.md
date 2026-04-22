@@ -17,7 +17,7 @@ Chegamos ao fim da jornada. O objetivo deste encontro é consolidar o aprendizad
 
 ## Exemplos Práticos
 ### Prompt de Preparação de Showcase
-"Crie um resumo dos 5 principais ganhos de produtividade que tive ao adotar o Cursor IDE e Testes Automatizados por IA para apresentar ao meu gestor."
+"Crie um resumo dos 5 principais ganhos de produtividade que tive ao adotar o Gemini CLI e Testes Automatizados por IA para apresentar ao meu gestor."
 
 ## Sugestões de Ferramentas
 - **TLDR Newsletter:** Para se manter atualizado.

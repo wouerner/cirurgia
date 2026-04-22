@@ -5,14 +5,15 @@
 ## Tecnologias Recomendadas
 - **Sentry / LogRocket**
 - **Docker Logs**
-- **Terminal do Cursor (Terminal Chat)**
+- **Gemini CLI (Agentic Debugging)**
+- **Terminal Moderno**
 
 ## Teoria
-Depurar não é apenas ler a mensagem de erro, mas entender a **causa raiz**. Com a IA, podemos colar logs gigantes e pedir correlações. A IA brilha ao explicar erros que ocorrem apenas em produção devido a condições de corrida ou falhas silenciosas.
+Depurar não é apenas ler a mensagem de erro, mas entender a **causa raiz**. O Gemini CLI pode atuar como um "detetive", explorando seu projeto para encontrar a origem de um erro que parece não fazer sentido.
 
 ### Workflow de RCA:
-1. Cole o stack trace no chat.
-2. Peça: "Explique o que pode estar causando este erro com base nos arquivos `@auth.service.ts` e `@database.ts`".
+1. Use o comando `gemini` passando o erro: "Analise este erro e identifique a causa raiz no projeto".
+2. O Gemini irá pesquisar nos arquivos relevantes para entender as dependências que causaram a falha.
 
 ## Exemplos Práticos
 ### Prompt de Análise de Logs
@@ -23,5 +24,5 @@ Depurar não é apenas ler a mensagem de erro, mas entender a **causa raiz**. Co
 
 ## Exercício Prático
 1. Force um erro intencional no seu código (ex: uma variável nula em um objeto aninhado).
-2. Cole o erro no Cursor e use o comando "Fix" para ver se a solução sugerida é paliativa ou estrutural.
-3. Peça à IA para explicar por que aquele erro aconteceu.
+2. Use o Gemini CLI para analisar o erro: "Analise este erro e sugira uma correção estrutural, não apenas um 'if' de proteção."
+3. Peça à IA para explicar por que aquele erro aconteceu e como evitar regressões.

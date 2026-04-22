@@ -23,5 +23,5 @@ A documentação é frequentemente negligenciada. Com a IA, podemos transformá-
 
 ## Exercício Prático
 1. Escolha um repositório seu que esteja sem documentação.
-2. Peça ao Cursor: "Gere um diagrama de sequência em Mermaid.js que mostre o fluxo de uma requisição de login desde o Controller até o Banco de Dados".
+2. Peça ao Gemini CLI: "Gere um diagrama de sequência em Mermaid.js que mostre o fluxo de uma requisição de login desde o Controller até o Banco de Dados".
 3. Crie um arquivo `DOCUMENTATION.md` e peça para a IA listar todos os endpoints da sua aplicação e suas entradas/saídas.

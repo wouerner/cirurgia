@@ -13,16 +13,16 @@ Este curso é desenhado para desenvolvedores tradicionais que querem dominar o u
 
 ### Encontro 01: O Engenheiro de Software na Era da IA
 - O novo papel do desenvolvedor: de "escritor de código" para "revisor e arquiteto".
-- Setup do arsenal: Copilot, Cursor, ChatGPT/Claude.
+- Setup do arsenal: Gemini CLI e Google AI Studio.
 - Ética e segurança: O que NUNCA colar na IA.
 
 ---
 
-### Módulo 1: Coding & IDE Mastery
+### Módulo 1: CLI-First & Agentic Development
 
-#### Encontro 02: IDEs Modernas (Cursor) e Pair Programming
-- **Teoria:** Contexto é Rei. Como a IDE de IA entende seu projeto inteiro.
-- **Prática:** Uso avançado do Cursor: `@symbols`, `@files`, Composer e Chat. Criando uma feature do zero em minutos.
+#### Encontro 02: Gemini CLI Mastery e Pair Programming Agentic
+- **Teoria:** Contexto é Rei. Como o Gemini CLI indexa e compreende seu projeto inteiro via terminal.
+- **Prática:** Uso avançado de ferramentas integradas (Read, Search, Replace) e sub-agentes. Criando uma feature complexa de ponta a ponta sem sair do terminal.
 
 #### Encontro 03: Prompt Engineering para Desenvolvedores
 - **Teoria:** Técnicas de "System Prompting" e "Role Prompting" para código.
