@@ -1,4 +1,4 @@
-[<- Voltar ao Índice](../CURSO_ENGENHEIRO_IA.md)
+[<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
 # Encontro 04: Testes Automatizados e Edge Cases
 

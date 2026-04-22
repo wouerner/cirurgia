@@ -1,6 +1,6 @@
-[<- Voltar ao Índice](../CURSO_ENGENHEIRO_IA.md)
+[<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
-# Encontro 06: Refatoração, SOLID e Clean Code
+# Encontro 06: Refatoracao, SOLID e Clean Code
 
 ## Tecnologias Recomendadas
 - **SonarQube AI**

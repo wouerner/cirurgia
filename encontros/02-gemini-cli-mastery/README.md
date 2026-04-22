@@ -1,4 +1,4 @@
-[<- Voltar ao Índice](../CURSO_ENGENHEIRO_IA.md)
+[<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
 # Encontro 02: Gemini CLI Mastery e Pair Programming Agentic
 

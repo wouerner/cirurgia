@@ -11,7 +11,7 @@ Este curso é desenhado para desenvolvedores tradicionais que querem dominar o u
 
 ## Cronograma de Encontros
 
-### Encontro 01: O Engenheiro de Software na Era da IA
+### [Encontro 01: O Engenheiro de Software na Era da IA](encontros/01-introducao-setup/README.md)
 - O novo papel do desenvolvedor: de "escritor de código" para "revisor e arquiteto".
 - Setup do arsenal: Gemini CLI e Google AI Studio.
 - Ética e segurança: O que NUNCA colar na IA.
@@ -20,11 +20,11 @@ Este curso é desenhado para desenvolvedores tradicionais que querem dominar o u
 
 ### Módulo 1: CLI-First & Agentic Development
 
-#### Encontro 02: Gemini CLI Mastery e Pair Programming Agentic
+#### [Encontro 02: Gemini CLI Mastery e Pair Programming Agentic](encontros/02-gemini-cli-mastery/README.md)
 - **Teoria:** Contexto é Rei. Como o Gemini CLI indexa e compreende seu projeto inteiro via terminal.
 - **Prática:** Uso avançado de ferramentas integradas (Read, Search, Replace) e sub-agentes. Criando uma feature complexa de ponta a ponta sem sair do terminal.
 
-#### Encontro 03: Prompt Engineering para Desenvolvedores
+#### [Encontro 03: Prompt Engineering para Desenvolvedores](encontros/03-prompt-engineering-devs/README.md)
 - **Teoria:** Técnicas de "System Prompting" e "Role Prompting" para código.
 - **Prática:** Criando padrões de projeto (Design Patterns) e lógica complexa guiando a IA com pseudocódigo.
 
@@ -32,11 +32,11 @@ Este curso é desenhado para desenvolvedores tradicionais que querem dominar o u
 
 ### Módulo 2: Qualidade e Manutenção
 
-#### Encontro 04: Testes Automatizados e Edge Cases
+#### [Encontro 04: Testes Automatizados e Edge Cases](encontros/04-testes-qualidade-ia/README.md)
 - **Teoria:** IA como aliada do TDD. Encontrando falhas lógicas com IA.
 - **Prática:** Geração de Unit Tests, Integration e E2E (Playwright). Cobrindo 100% de um código legado.
 
-#### Encontro 05: Debugging e Root Cause Analysis (RCA)
+#### [Encontro 05: Debugging e Root Cause Analysis (RCA)](encontros/05-debugging-root-cause/README.md)
 - **Teoria:** Analisando logs e stack traces gigantes com IA.
 - **Prática:** Usando a IA para explicar bugs "impossíveis" e sugerir correções estruturais.
 
@@ -44,11 +44,11 @@ Este curso é desenhado para desenvolvedores tradicionais que querem dominar o u
 
 ### Módulo 3: Legado e Engenharia Reversa
 
-#### Encontro 06: Refatoração, SOLID e Clean Code
+#### [Encontro 06: Refatoracao, SOLID e Clean Code](encontros/06-refatoracao-clean-code/README.md)
 - **Teoria:** Detectando "Code Smells" automaticamente.
 - **Prática:** Transformando código espaguete em código modular e tipado com ajuda da IA.
 
-#### Encontro 07: Documentação e Onboarding Automatizado
+#### [Encontro 07: Documentação e Onboarding Automatizado](encontros/07-documentacao-onboarding/README.md)
 - **Teoria:** Documentação viva. Usando IA para entender repositórios desconhecidos.
 - **Prática:** Geração de READMEs técnicos, diagramas de sequência e documentação de API automática.
 
@@ -56,11 +56,11 @@ Este curso é desenhado para desenvolvedores tradicionais que querem dominar o u
 
 ### Módulo 4: Além do Código (Arquitetura e Ops)
 
-#### Encontro 08: Arquitetura, Diagramas e Trade-offs
+#### [Encontro 08: Arquitetura, Diagramas e Trade-offs](encontros/08-arquitetura-diagramas/README.md)
 - **Teoria:** IA como consultora de arquitetura. Mermaid.js para documentação visual.
 - **Prática:** Desenhando a arquitetura de um sistema distribuído e validando decisões com a IA.
 
-#### Encontro 09: IA para DevSecOps e Infraestrutura (IAC)
+#### [Encontro 09: IA para DevSecOps e Infraestrutura (IAC)](encontros/09-devsecops-infra-iac/README.md)
 - **Teoria:** Docker, K8s e Terraform sem sofrimento.
 - **Prática:** Criando ambientes de deploy completos e analisando vulnerabilidades de segurança no código.
 
@@ -68,17 +68,17 @@ Este curso é desenhado para desenvolvedores tradicionais que querem dominar o u
 
 ### Módulo 5: Automação e Futuro
 
-#### Encontro 10: Automação de Workflows com Scripts de IA
+#### [Encontro 10: Automação de Workflows com Scripts de IA](encontros/10-automacao-workflows-scripts/README.md)
 - **Teoria:** Criando suas próprias ferramentas de produtividade.
 - **Prática:** Desenvolvendo scripts CLI em Python/Bash para automatizar tarefas repetitivas do seu time.
 
-#### Encontro 11: Agentes de Desenvolvimento (O Futuro do Trabalho)
+#### [Encontro 11: Agentes de Desenvolvimento (O Futuro do Trabalho)](encontros/11-agentes-desenvolvimento/README.md)
 - **Teoria:** Agentes autônomos (OpenDevin, GPT-Engineer). Delegando tickets reais.
 - **Prática:** Configurando um agente para resolver um bug ou implementar uma melhoria de forma autônoma.
 
 ---
 
-### Encontro 12: Formatura e Showcase de Produtividade
+### [Encontro 12: Formatura e Showcase de Produtividade](encontros/12-formatura-showcase/README.md)
 - Apresentação de um workflow ou ferramenta criada durante o curso.
 - Discussão: Como se manter atualizado em um campo que muda todo dia.
 - Encerramento e Certificação.

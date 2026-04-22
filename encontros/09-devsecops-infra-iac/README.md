@@ -1,4 +1,4 @@
-[<- Voltar ao Índice](../CURSO_ENGENHEIRO_IA.md)
+[<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
 # Encontro 09: IA para DevSecOps e Infraestrutura (IAC)
 
