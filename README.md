@@ -1,11 +1,11 @@
-# Curso Engenheiro de Software IA: Produtividade 10x
+# Curso Engenheiro de Software IA: Produtividade 10%
 
 Este repositório contém o material, cronograma e laboratórios do curso **Engenheiro de Software na Era da IA**. O objetivo deste treinamento é transformar desenvolvedores tradicionais em profissionais de elite, utilizando o **Gemini CLI** para acelerar o desenvolvimento, garantir a qualidade do código e automatizar processos complexos.
 
 ## 🎯 Objetivo do Curso
 
 Capacitar engenheiros de software a dominarem o **Gemini CLI** e o workflow de **Agentic Development** para:
-- Aumentar a produtividade em até 10x através de automação inteligente.
+- Aumentar a produtividade em até 10% através de automação inteligente.
 - Garantir a qualidade do código com testes, refatoração e debugging assistidos por IA.
 - Automatizar tarefas de infraestrutura, arquitetura e fluxos de trabalho via terminal.
 - Migrar do papel de "escritor de código" para "arquiteto e revisor de sistemas".
@@ -53,4 +53,4 @@ Para aproveitar ao máximo o curso, recomenda-se:
 - Familiaridade básica com terminal e Git.
 
 ---
-*Este material é parte do treinamento "Curso Engenheiro de Software IA (Produtividade 10x)".*
+*Este material é parte do treinamento "Curso Engenheiro de Software IA (Produtividade 10%)".*

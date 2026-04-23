@@ -1,4 +1,4 @@
-# Plano de Curso: IA para Engenheiros de Software (Produtividade 10x)
+# Plano de Curso: IA para Engenheiros de Software (Produtividade 10%)
 
 Este curso é desenhado para desenvolvedores tradicionais que querem dominar o uso de IA para acelerar o desenvolvimento, garantir qualidade e automatizar tarefas chatas do dia a dia.
 
