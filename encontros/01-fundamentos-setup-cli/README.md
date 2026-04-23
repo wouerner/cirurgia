@@ -10,6 +10,10 @@
 ## Teoria
 O papel do desenvolvedor está mudando drasticamente. Deixamos de ser meros "digitadores de código" para nos tornarmos **arquitetos, revisores e orquestradores**. Com o uso de agentes via CLI, o desenvolvedor passa a atuar no nível da intenção, guiando a IA através do terminal para realizar mudanças estruturais e complexas em todo o projeto, e não apenas em arquivos isolados.
 
+### Contexto e Agentic Workflow:
+- **Indexação Inteligente:** O Gemini CLI não apenas lê arquivos, ele compreende o projeto como um todo.
+- **Workflow CLI-First:** Como o terminal se torna a interface principal para criação e modificação de sistemas.
+
 ### Ética e Segurança
 - **Dados Sensíveis:** Jamais cole segredos de API, senhas ou dados de clientes no prompt. O Gemini CLI respeita arquivos `.gitignore`, mas a atenção deve ser redobrada.
 - **Propriedade Intelectual:** Verifique as políticas da sua empresa sobre o uso de ferramentas de IA no código proprietário.

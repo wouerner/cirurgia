@@ -1,54 +1,36 @@
 [<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
-# Encontro 06: Refatoracao, SOLID e Clean Code
+# Encontro 04: Engenharia Reversa: Refatoração e Documentação
 
 ## Tecnologias Recomendadas
-- **SonarQube AI**
-- **ESLint / Prettier**
-- **CodeRabbit (AI Code Reviews)**
+- **Mermaid.js** (Diagramas)
+- **SonarQube / ESLint**
+- **Gemini CLI (Refactoring Mode)**
 
 ## Teoria
-Transformar "código legado" em "código moderno" é uma das maiores dores da engenharia. A IA pode detectar automaticamente **Code Smells** como funções muito longas, acoplamento excessivo e falta de coesão.
+Código legado não é apenas código antigo, é código sem testes e difícil de entender. A IA pode atuar na **Engenharia Reversa**, ajudando a entender o propósito de um código complexo e sugerindo refatorações baseadas em **SOLID e Clean Code**. Além disso, ela pode manter a **Documentação Viva**, gerando diagramas e READMEs técnicos sempre atualizados.
 
-### Foco em SOLID:
-- **S (SRP):** Pedir para quebrar uma classe gigante em componentes menores.
-- **O (OCP):** Sugerir interfaces para extensibilidade sem alteração do original.
+### Refatoração Assistida:
+- **Code Smells:** Identificação automática de acoplamento excessivo ou funções gigantes.
+- **Tipagem Estrita:** Conversão de código JS dinâmico para TS tipado e seguro.
+- **Modularização:** Divisão de arquivos complexos em componentes menores e testáveis.
 
-## Exemplos Práticos
-### Prompt de Refatoração
-"Refatore esta função `@LegacyOrder.js` aplicando o Single Responsibility Principle. Extraia a lógica de envio de e-mail e de cálculo de descontos para serviços separados."
-
-## Sugestões de Ferramentas
-- **Linter-to-AI:** Use as regras do ESLint para guiar a correção automática pela IA.
-
-## Exercício Prático
-1. Pegue um arquivo antigo ou "bagunçado" do seu projeto.
-2. Use o prompt: "Analise este código e liste 3 melhorias de Clean Code e 2 de performance".
-3. Aplique as refatorações sugeridas uma por uma, validando com os testes criados no Encontro 04.
-[<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
-
-# Encontro 07: Documentação e Onboarding Automatizado
-
-## Tecnologias Recomendadas
-- **Docosaurus / GitBook**
-- **Mermaid.js**
-- **Doxygen / JSDoc**
-
-## Teoria
-A documentação é frequentemente negligenciada. Com a IA, podemos transformá-la em uma **documentação viva**. Ela pode ler o código e gerar um README completo, guias de instalação e até diagramas de fluxo de dados.
-
-### Uso para Onboarding:
-- **Resumo de Repositório:** Peça à IA para descrever a estrutura de um projeto que você acabou de clonar.
-- **Geração de Comentários:** Automatizar a criação de docstrings e comentários JSDoc.
+### Documentação Automática:
+- **Diagramas de Fluxo:** Geração de código Mermaid.js a partir da lógica do código.
+- **READMEs Técnicos:** Descrição clara da arquitetura e como rodar o projeto.
 
 ## Exemplos Práticos
-### Prompt para README
-"Gere um arquivo README.md profissional para o meu projeto, incluindo seções de: Pré-requisitos, Como Rodar Localmente, Exemplos de Uso da API e Contribuição. Use o código do repositório como base."
+### Prompt de Refatoração SOLID
+"Refatore esta classe `OrderManager` para seguir o Princípio de Responsabilidade Única (SRP), separando a lógica de validação da lógica de persistência."
+
+### Prompt de Documentação Visual
+"Analise este fluxo de pagamento e gere um diagrama de sequência Mermaid.js mostrando as interações entre o frontend, backend e o gateway de pagamento."
 
 ## Sugestões de Ferramentas
-- **Swagger/OpenAPI:** Gere documentação interativa para sua API a partir dos seus arquivos de rotas.
+- **Mermaid Live Editor:** Para visualizar os diagramas gerados pela IA.
+- **Doxygen / JSDoc:** Para estruturar a documentação de código.
 
 ## Exercício Prático
-1. Escolha um repositório seu que esteja sem documentação.
-2. Peça ao Gemini CLI: "Gere um diagrama de sequência em Mermaid.js que mostre o fluxo de uma requisição de login desde o Controller até o Banco de Dados".
-3. Crie um arquivo `DOCUMENTATION.md` e peça para a IA listar todos os endpoints da sua aplicação e suas entradas/saídas.
+1. Escolha um "arquivo espaguete" no seu repositório.
+2. Peça ao Gemini CLI: "Explique o que este arquivo faz em alto nível e sugira 3 refatorações para torná-lo mais legível".
+3. Gere um `README_TECNICO.md` para uma pasta específica do seu projeto, incluindo um diagrama visual da estrutura de dados.

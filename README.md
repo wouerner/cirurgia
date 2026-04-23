@@ -14,19 +14,19 @@ Capacitar engenheiros de software a dominarem o **Gemini CLI** e o workflow de *
 
 O curso é estruturado em encontros práticos e densos:
 
-1. **Encontro 01: O Engenheiro de Software e o Arsenal CLI**
+1. **[Encontro 01: O Engenheiro de Software e o Arsenal CLI](encontros/01-fundamentos-setup-cli/README.md)**
    - Setup, fundamentos e primeiro contato com indexação de projetos.
-2. **Encontro 02: Prompt Engineering e Pair Programming Agentic**
+2. **[Encontro 02: Prompt Engineering e Pair Programming Agentic](encontros/02-prompt-engineering-mastery/README.md)**
    - Técnicas avançadas e uso de sub-agentes integrados.
-3. **Encontro 03: Ciclo de Qualidade: Testes e Debugging com IA**
+3. **[Encontro 03: Ciclo de Qualidade: Testes e Debugging com IA](encontros/03-qualidade-testes-debugging/README.md)**
    - TDD assistido, RCA e resolução de bugs complexos.
-4. **Encontro 04: Engenharia Reversa: Refatoração e Documentação**
+4. **[Encontro 04: Engenharia Reversa: Refatoração e Documentação](encontros/04-clean-code-documentacao/README.md)**
    - SOLID, Clean Code e geração de documentação viva.
-5. **Encontro 05: Arquitetura, Infraestrutura e DevSecOps**
+5. **[Encontro 05: Arquitetura, Infraestrutura e DevSecOps](encontros/05-arquitetura-infra-devops/README.md)**
    - Design de sistemas, IaC e segurança automatizada.
-6. **Encontro 06: O Futuro: Automação e Agentes Autônomos**
+6. **[Encontro 06: O Futuro: Automação e Agentes Autônomos](encontros/06-automacao-agentes/README.md)**
    - Criação de ferramentas próprias e delegação para agentes.
-7. **Encontro 07: Formatura e Showcase de Projetos**
+7. **[Encontro 07: Formatura e Showcase de Projetos](encontros/07-formatura-showcase/README.md)**
    - Apresentação de workflows e encerramento.
 
 ## 📂 Estrutura do Repositório

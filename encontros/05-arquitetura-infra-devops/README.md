@@ -1,52 +1,35 @@
 [<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
-# Encontro 08: Arquitetura, Diagramas e Trade-offs
+# Encontro 05: Arquitetura, Infraestrutura e DevSecOps
 
 ## Tecnologias Recomendadas
-- **Mermaid.js (Editor Live)**
-- **Eraser.io**
+- **Docker / Kubernetes (K8s)**
+- **Terraform / AWS CDK**
 - **Gemini CLI (Flash / Pro models)**
 
 ## Teoria
-A IA não deve apenas "cuspir" código, ela deve servir como uma **consultora sênior**. Em decisões de arquitetura, podemos pedir para ela analisar trade-offs entre, por exemplo, Monolito vs Microserviços para um caso específico.
+A IA não serve apenas para escrever funções, ela pode ser uma **Consultora de Arquitetura**. Desde o design de sistemas distribuídos até a criação de arquivos de infraestrutura como código (IaC), a IA ajuda a validar trade-offs e acelerar o setup de ambientes de deploy. No campo de **DevSecOps**, ela atua identificando vulnerabilidades e sugerindo correções preventivas.
 
-### Visualização com Mermaid.js:
-- A IA pode converter descrições textuais de infraestrutura em diagramas visuais (flowcharts, diagramas de classe, diagramas de arquitetura C4).
+### Consultoria de Arquitetura:
+- **Trade-offs:** Analisar se uma arquitetura baseada em microserviços ou monolítica é melhor para o cenário atual.
+- **Design Patterns de Infra:** Sugerir políticas de escalabilidade e alta disponibilidade.
 
-## Exemplos Práticos
-### Prompt de Análise de Trade-off
-"Estou em dúvida se uso Redis para cache ou apenas uma variável em memória. O volume de dados é de aproximadamente 1GB e o sistema é distribuído em 3 instâncias. Quais os trade-offs?"
-
-## Sugestões de Ferramentas
-- **Miro / Excalidraw:** Para esboçar fluxos antes de pedir à IA para "solidificar" a documentação visual.
-
-## Exercício Prático
-1. Desenhe a arquitetura atual do seu projeto em texto.
-2. Peça à IA: "Sugira uma evolução dessa arquitetura para suportar 10x mais usuários, mantendo a consistência dos dados".
-3. Gere o código Mermaid.js para essa nova proposta de arquitetura e visualize no editor online.
-[<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
-
-# Encontro 09: IA para DevSecOps e Infraestrutura (IAC)
-
-## Tecnologias Recomendadas
-- **Docker / Docker Compose**
-- **Terraform / CloudFormation**
-- **Snyk / Checkov**
-
-## Teoria
-**Infraestrutura como Código (IaC)** pode ser complexa de manter. A IA ajuda a criar manifestos Kubernetes, arquivos Dockerfile otimizados e scripts Terraform sem que você precise decorar toda a sintaxe.
-
-### Foco em Segurança:
-- **Análise Estática de Segurança (SAST):** Peça para a IA identificar se há chaves expostas ou se as imagens Docker estão rodando como root.
+### Infra e Segurança:
+- **IaC Automatizado:** Geração de arquivos Dockerfile, Docker Compose e scripts Terraform.
+- **Segurança (DevSecOps):** Escaneamento de código em busca de vulnerabilidades (ex: SQL Injection, Hardcoded Secrets).
 
 ## Exemplos Práticos
-### Prompt de Criação de Infraestrutura
-"Crie um Dockerfile otimizado para uma aplicação Node.js usando multi-stage build para reduzir o tamanho da imagem final. Garanta que a aplicação rode com um usuário não-root."
+### Prompt de Consultoria de Arquitetura
+"Abaixo está o diagrama do meu sistema atual. Sugira uma evolução dessa arquitetura para suportar 10% mais usuários, mantendo a consistência dos dados e explicando os trade-offs de latência."
+
+### Prompt de Geração de Infra
+"Gere um arquivo Dockerfile otimizado para uma aplicação Node.js (Alpine Linux) e um Docker Compose que inclua o banco de dados PostgreSQL e um serviço de cache Redis."
 
 ## Sugestões de Ferramentas
-- **Terraform Cloud:** Para gerenciar o estado da sua infraestrutura gerada por IA.
+- **Trivy / Snyk:** Para validar os arquivos de infra gerados pela IA.
+- **AWS Architecture Icons:** Para referência visual em diagramas.
 
 ## Exercício Prático
-1. Crie um arquivo `docker-compose.yml` para seu projeto que inclua a aplicação, um banco de dados PostgreSQL e um serviço de cache Redis.
-2. Peça à IA: "Revise meu código em busca de vulnerabilidades de segurança como Injeção de SQL ou Broken Access Control".
-3. Gere um script Terraform básico para subir uma instância na AWS (EC2 ou S3 bucket).
+1. Peça à IA para analisar seu `package.json` ou `requirements.txt` em busca de dependências com vulnerabilidades conhecidas.
+2. Gere um setup completo de deploy (Dockerfile + CI/CD config) para um projeto simples do seu repositório.
+3. Descreva um problema de escala (ex: "meu banco está lento em horários de pico") e peça uma solução arquitetural baseada em cache ou mensageria.

@@ -1,6 +1,6 @@
 [<- Voltar ao Conteúdo](README.md)
 
-# Cronograma Detalhado: Formatura e Showcase de Produtividade (2h 30min)
+# Cronograma Detalhado: Encontro 07 (2h 30min)
 
 ## 1. Conceito (30 min)
 - **IA como Multiplicador de Força:** Consolidação do papel do engenheiro como arquiteto e revisor crítico.

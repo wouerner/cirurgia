@@ -1,56 +1,31 @@
 [<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
-# Encontro 10: Automação de Workflows com Scripts de IA
+# Encontro 06: O Futuro: Automação e Agentes Autônomos
 
 ## Tecnologias Recomendadas
-- **Python (Click / Typer)**
-- **Bash**
-- **Node.js (oclif)**
+- **Gemini CLI (Sub-agentes)**
+- **Gemini CLI (Agentic Mode)**
+- **Scripts Shell / Python**
 
 ## Teoria
-Automatizar tarefas repetitivas é onde o Engenheiro de IA ganha tempo real. Em vez de fazer tarefas manuais como renomear 100 arquivos ou migrar dados de um CSV para um Banco, podemos pedir para a IA gerar **scripts utilitários** em segundos.
+Agentes são o próximo nível da IA. Diferente de um chat onde você precisa copiar e colar, os **Agentes Autônomos** e **Sub-agentes** podem navegar no seu repositório, rodar testes e tentar corrigir erros até que eles passem. Nesta fase, aprendemos a criar ferramentas próprias de automação que estendem o poder da IA para fluxos de trabalho específicos do seu time.
 
-### O Poder do Scripting:
-- **CLI Tools:** Crie suas próprias ferramentas de linha de comando.
-- **Data Transformation:** Manipule grandes volumes de JSON, CSV ou logs.
-
-## Exemplos Práticos
-### Prompt de Automação
-"Crie um script em Python que leia todos os arquivos `.md` na pasta `encontros/` e extraia os títulos para um arquivo chamado `SUMARIO.md` automaticamente."
-
-## Sugestões de Ferramentas
-- **Zapier / Make:** Integre scripts locais com ferramentas de nuvem via API.
-
-## Exercício Prático
-1. Identifique uma tarefa que você faz semanalmente e gasta mais de 15 minutos (ex: limpar logs antigos ou gerar reports).
-2. Peça à IA para gerar um script CLI em Python para automatizar isso.
-3. Teste o script e use a IA para adicionar uma barra de progresso e logs de sucesso/erro.
-[<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
-
-# Encontro 11: Agentes de Desenvolvimento (O Futuro do Trabalho)
-
-## Tecnologias Recomendadas
-- ****Gemini CLI (Sub-agentes)****
-- ****Gemini CLI (Agentic Mode)****
-- ****Gemini CLI (Shell integration)****
-
-## Teoria
-Agentes são o próximo nível da IA. Diferente de um chat onde você precisa copiar e colar, os **Agentes Autônomos** podem "sentar na sua cadeira", navegar no seu repositório, rodar testes e tentar corrigir erros até que eles passem.
-
-### O que um Agente faz:
-1. Recebe uma "missão" (ex: "Conserte o bug de login").
-2. Pesquisa os arquivos relevantes.
-3. Propõe uma mudança.
-4. Roda os testes e, se falhar, tenta de novo.
+### O Poder dos Agentes:
+1. **Missão e Autonomia:** Delegar uma "missão" (ex: "Corrija todos os bugs de lint neste módulo") e deixar que a IA pesquise, proponha e valide a solução.
+2. **Custom Agents:** Como configurar o Gemini CLI para atuar com instruções específicas do seu contexto de negócio.
+3. **Automação de Workflows:** Scripts que orquestram múltiplas chamadas de IA para tarefas repetitivas (ex: geração de changelogs ou triagem de issues).
 
 ## Exemplos Práticos
 ### Prompt para Sub-agentes do Gemini CLI
-"/bug: A tela de checkout está falhando quando o endereço do usuário não possui número. Pesquise onde essa validação ocorre e corrija para que o campo seja opcional."
+"Utilize o comando `invoke_agent` para delegar a seguinte tarefa: 'Pesquise onde a validação de endereço ocorre no checkout e torne o campo de número opcional, atualizando todos os testes afetados'."
+
+### Scripts de Automação
+Como integrar o Gemini CLI em scripts Bash para processar arquivos em lote ou realizar auditorias de código automáticas.
 
 ## Sugestões de Ferramentas
 - **Gemini CLI Custom Agents:** Crie agentes especializados para tarefas de nicho no seu projeto.
 
 ## Exercício Prático
 1. Utilize o comando `invoke_agent` para delegar tarefas complexas aos sub-agentes do Gemini CLI.
-2. Dê a ele uma tarefa pequena: "Crie uma nova página de perfil de usuário com campos para Nome, Bio e Foto de Perfil".
-3. Observe como ele navega pelo seu sistema de rotas e componentes de UI de forma autônoma.
+2. Dê a ele uma tarefa média: "Crie uma nova página de perfil de usuário com campos para Nome, Bio e Foto de Perfil, integrando com a API existente".
+3. Desenvolva um script simples (Python ou Shell) que use o Gemini CLI para gerar um resumo de mudanças (Changelog) baseado no `git diff` da última semana.

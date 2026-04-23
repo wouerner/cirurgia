@@ -1,32 +1,18 @@
 [<- Voltar ao Conteúdo](README.md)
 
-# Cronograma Detalhado: Testes Automatizados e Edge Cases (2h 30min)
+# Cronograma Detalhado: Encontro 03 (2h 30min)
 
-## 1. Conceito (30 min)
-- **IA no TDD:** Como utilizar a IA para identificar edge cases e gerar mocks complexos.
-- **Cobertura de Código:** Uso de ferramentas para analisar caminhos não cobertos e gerar testes correspondentes.
+### 1. Conceito: Qualidade e Resiliência com IA (30 min)
+- **TDD Assistido:** Como a IA acelera o ciclo de Red-Green-Refactor.
+- **Agentic Debugging:** A diferença entre pedir uma correção e pedir uma análise de causa raiz (RCA).
+- **Edge Cases:** Usando a IA para prever falhas em inputs inesperados.
 
-## 2. Live Coding (1h 15min)
-- Demonstração prática dos conceitos de Testes e Qualidade com IA.
-- Resolução de problemas reais usando Gemini CLI.
+### 2. Live Coding: Testes e Debugging em Lote (1h 15min)
+- **Cobertura de Código:** Usando o Gemini CLI para analisar um módulo e gerar testes unitários e de integração faltantes.
+- **E2E com Playwright:** Geração automatizada de fluxos de teste de ponta a ponta.
+- **RCA na Prática:** Analisando um log de erro real e deixando a IA pesquisar no código a origem da falha.
 
-## 3. Laboratório (45 min)
-- **Suíte de Testes Unitários:** Escrita de testes para lógica de negócio com isolamento de dependências.
-- **Stress Test com IA:** Tentar "quebrar" o código sugerindo inputs inesperados via IA.
-- Suporte e Peer Review.
-[<- Voltar ao Conteúdo](README.md)
-
-# Cronograma Detalhado: Debugging e Root Cause Analysis (RCA) (2h 30min)
-
-## 1. Conceito (30 min)
-- **Identificação de Causa Raiz:** Uso do Gemini CLI como detetive para explorar dependências e origens de falhas.
-- **Workflow de RCA:** Como passar erros e logs para a IA para obter diagnósticos estruturais.
-
-## 2. Live Coding (1h 15min)
-- Demonstração prática dos conceitos de Debugging e RCA.
-- Resolução de problemas reais usando Gemini CLI.
-
-## 3. Laboratório (45 min)
-- **Análise de Erro Provocado:** Forçar falhas e utilizar a IA para sugerir correções arquiteturais.
-- **Prevenção de Regressões:** Discussão sobre por que o erro ocorreu e como evitar que volte.
-- Suporte e Peer Review.
+### 3. Laboratório: Blindagem de Código (45 min)
+- **Desafio:** Identificar um arquivo sem testes e atingir 80%+ de cobertura usando a IA.
+- **Bug Hunt:** Tentar introduzir bugs sutis e verificar se a suíte de testes gerada pela IA consegue detectá-los.
+- **Refatoração Pós-Teste:** Usar a segurança dos testes criados para realizar uma refatoração estrutural com a IA.

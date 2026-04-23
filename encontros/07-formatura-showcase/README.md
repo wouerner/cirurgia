@@ -1,6 +1,6 @@
 [<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
-# Encontro 12: Formatura e Showcase de Produtividade
+# Encontro 07: Formatura e Showcase de Projetos
 
 ## Tecnologias Recomendadas
 - **Slide Deck (Gerado por IA)**

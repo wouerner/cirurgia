@@ -1,32 +1,18 @@
 [<- Voltar ao Conteúdo](README.md)
 
-# Cronograma Detalhado: Gemini CLI Mastery (2h 30min)
+# Cronograma Detalhado: Encontro 02 (2h 30min)
 
-## 1. Conceito (30 min)
-- **O Gemini CLI como Agente Orquestrador:** Como a ferramenta opera explorando o projeto em tempo real usando ferramentas de terminal.
-- **Workflow Agentic:** Entender o uso de sub-agentes e o Plan Mode para mudanças complexas.
+### 1. Conceito: Prompt Engineering Avançado (30 min)
+- **Além do "Faze pra mim":** Estruturação de prompts usando Markdown e delimitadores.
+- **Técnicas de Elite:** System Prompting, Few-Shot e Chain-of-Thought aplicado a código complexo.
+- **Contexto Agentic:** Como o Gemini CLI decide quais ferramentas usar (read, search, list) para responder a um prompt.
 
-## 2. Live Coding (1h 15min)
-- Demonstração prática dos conceitos de Gemini CLI.
-- Resolução de problemas reais usando Gemini CLI.
+### 2. Live Coding: Feature End-to-End via CLI (1h 15min)
+- **Planejamento:** Usando o `enter_plan_mode` para desenhar uma feature antes de codar.
+- **Execução Agentic:** Delegando a criação de rotas, controllers e models para sub-agentes.
+- **Pair Programming:** Como interagir com a IA para refinar a implementação em tempo real sem sair do terminal.
 
-## 3. Laboratório (45 min)
-- **Análise de Repositório:** Gerar relatório técnico sobre a arquitetura de um projeto.
-- **Refatoração Autônoma:** Solicitar e observar alterações em múltiplos arquivos.
-- Suporte e Peer Review.
-[<- Voltar ao Conteúdo](README.md)
-
-# Cronograma Detalhado: Prompt Engineering para Desenvolvedores (2h 30min)
-
-## 1. Conceito (30 min)
-- **Técnicas de Prompting:** Exploração de Chain-of-Thought, Role Prompting e Few-Shot para resultados de nível sênior.
-- **Estruturação de Prompts:** Como organizar prompts em Markdown para melhor compreensão da IA.
-
-## 2. Live Coding (1h 15min)
-- Demonstração prática dos conceitos de Prompt Engineering.
-- Resolução de problemas reais usando Gemini CLI.
-
-## 3. Laboratório (45 min)
-- **Implementação de Design Patterns:** Uso de prompts estruturados para implementar padrões como Strategy ou Observer.
-- **Refinamento de Código:** Adição de tipagem estrita e tratamento de erros via refinamento de prompt.
-- Suporte e Peer Review.
+### 3. Laboratório: Desafio do Arquiteto (45 min)
+- **Desafio:** Implementar um Design Pattern específico (ex: Repository ou Factory) em um módulo existente, guiando a IA apenas com prompts estruturados.
+- **Análise de Trade-offs:** Pedir para a IA explicar as escolhas de implementação e propor alternativas.
+- **Revisão:** Garantir que o código gerado segue os padrões de estilo do projeto.

@@ -1,32 +1,17 @@
 [<- Voltar ao Conteúdo](README.md)
 
-# Cronograma Detalhado: Refatoração, SOLID e Clean Code (2h 30min)
+# Cronograma Detalhado: Encontro 04 (2h 30min)
 
-## 1. Conceito (30 min)
-- **Detecção de Code Smells:** Uso de IA para identificar funções longas e acoplamento excessivo.
-- **Aplicação de SOLID:** Estratégias para quebrar classes gigantes (SRP) e usar interfaces para extensibilidade (OCP).
+### 1. Conceito: Engenharia Reversa e SOLID (30 min)
+- **Desvendando o Legado:** Como usar a IA para explicar códigos complexos que ninguém mais quer mexer.
+- **Refatoração Cirúrgica:** Aplicando padrões SOLID para desacoplar código espaguete.
+- **Documentação Viva:** O conceito de documentação que evolui junto com o código através de agentes.
 
-## 2. Live Coding (1h 15min)
-- Demonstração prática dos conceitos de Refatoração e Clean Code.
-- Resolução de problemas reais usando Gemini CLI.
+### 2. Live Coding: Refatoração e Visualização (1h 15min)
+- **Transformação:** Pegando um arquivo "Deus" (God Object) e dividindo-o em componentes modulares.
+- **Diagramas Automatizados:** Usando a IA para gerar código Mermaid.js e visualizar a arquitetura do projeto.
+- **JSDoc e README:** Padronização da documentação técnica de API de forma automatizada.
 
-## 3. Laboratório (45 min)
-- **Refatoração de Código Legado:** Análise de melhorias de Clean Code e performance em arquivos reais.
-- **Validação com Testes:** Aplicar refatorações e validar usando a suíte de testes.
-- Suporte e Peer Review.
-[<- Voltar ao Conteúdo](README.md)
-
-# Cronograma Detalhado: Documentação e Onboarding Automatizado (2h 30min)
-
-## 1. Conceito (30 min)
-- **Documentação Viva:** Como a IA pode gerar READMEs, guias de instalação e docstrings automaticamente.
-- **Onboarding com IA:** Uso de IA para resumir repositórios e explicar a estrutura de projetos desconhecidos.
-
-## 2. Live Coding (1h 15min)
-- Demonstração prática dos conceitos de Documentação e Onboarding.
-- Resolução de problemas reais usando Gemini CLI.
-
-## 3. Laboratório (45 min)
-- **Diagramação com Mermaid.js:** Geração de diagramas de sequência que mostram o fluxo de requisições.
-- **Documentação de API:** Listagem automática de endpoints e suas especificações de entrada/saída.
-- Suporte e Peer Review.
+### 3. Laboratório: Onboarding Express (45 min)
+- **Desafio:** Gerar um guia de onboarding (`CONTRIBUTING.md` e `README.md`) para um módulo complexo do projeto, incluindo diagramas de fluxo de dados.
+- **Clean Code Audit:** Pedir à IA uma auditoria de Clean Code e implementar as 3 melhorias mais críticas.
