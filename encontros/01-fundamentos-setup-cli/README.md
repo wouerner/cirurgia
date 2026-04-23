@@ -1,6 +1,6 @@
 [<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
-# Encontro 01: O Engenheiro de Software na Era da IA
+# Encontro 01: O Engenheiro de Software e o Arsenal CLI
 
 ## Tecnologias Recomendadas
 - **Gemini CLI** (Ferramenta Principal)

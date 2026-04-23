@@ -1,4 +1,4 @@
-# Plano de Curso: IA para Engenheiros de Software (Produtividade 10%)
+# Plano de Curso: Cirurgico: Curso Engenheiro de Software com auxilio de IA
 
 Este curso é desenhado para desenvolvedores tradicionais que querem dominar o uso de IA para acelerar o desenvolvimento, garantir qualidade e automatizar tarefas chatas do dia a dia.
 

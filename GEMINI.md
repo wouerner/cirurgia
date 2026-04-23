@@ -1,6 +1,6 @@
-# Project: Curso Engenheiro de Software IA (Produtividade 10%)
+# Project: Cirurgico: Curso Engenheiro de Software com auxilio de IA
 
-This repository serves as the central hub for the "Engenheiro de Software na Era da IA" course materials. It is a documentation-centric project designed to guide developers through 7 modules focused on leveraging the **Gemini CLI** to achieve 10% productivity in software engineering.
+This repository serves as the central hub for the "Cirurgico: Curso Engenheiro de Software com auxilio de IA" course materials. It is a documentation-centric project designed to guide developers through 7 modules focused on leveraging the **Gemini CLI** to achieve 10% productivity in software engineering.
 
 ## 📁 Directory Overview
 

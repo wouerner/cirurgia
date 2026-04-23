@@ -1,6 +1,6 @@
-# Curso Engenheiro de Software IA: Produtividade 10%
+# Cirurgico: Curso Engenheiro de Software com auxilio de IA
 
-Este repositório contém o material, cronograma e laboratórios do curso **Engenheiro de Software na Era da IA**. O objetivo deste treinamento é transformar desenvolvedores tradicionais em profissionais de elite, utilizando o **Gemini CLI** para acelerar o desenvolvimento, garantir a qualidade do código e automatizar processos complexos.
+Este repositório contém o material, cronograma e laboratórios do curso **Cirurgico: Curso Engenheiro de Software com auxilio de IA**. O objetivo deste treinamento é transformar desenvolvedores tradicionais em profissionais de elite, utilizando o **Gemini CLI** para acelerar o desenvolvimento, garantir a qualidade do código e automatizar processos complexos.
 
 ## 🎯 Objetivo do Curso
 
@@ -53,4 +53,4 @@ Para aproveitar ao máximo o curso, recomenda-se:
 - Familiaridade básica com terminal e Git.
 
 ---
-*Este material é parte do treinamento "Curso Engenheiro de Software IA (Produtividade 10%)".*
+*Este material é parte do treinamento "Cirurgico: Curso Engenheiro de Software com auxilio de IA".*
