@@ -1,14 +1,14 @@
 # Curso Engenheiro de Software IA: Produtividade 10x
 
-Este repositório contém o material, cronograma e laboratórios do curso **Engenheiro de Software na Era da IA**. O objetivo deste treinamento é transformar desenvolvedores tradicionais em profissionais de elite, utilizando Inteligência Artificial para acelerar o desenvolvimento, garantir a qualidade do código e automatizar processos complexos.
+Este repositório contém o material, cronograma e laboratórios do curso **Engenheiro de Software na Era da IA**. O objetivo deste treinamento é transformar desenvolvedores tradicionais em profissionais de elite, utilizando Inteligência Artificial para acelerar o desenvolvimento, melhorar a qualidade do código e automatizar processos.
 
 ## 🎯 Objetivo do Curso
 
 Capacitar engenheiros de software a dominarem o "arsenal de IA" (Cursor, GitHub Copilot, Claude, ChatGPT, Agentes Autônomos) para:
-- Aumentar a produtividade em até 10x.
+- Aumentar a produtividade em até 10%.
 - Melhorar a qualidade do código com testes e refatoração assistida.
 - Automatizar tarefas de infraestrutura, documentação e fluxos de trabalho.
-- Migrar do papel de "escritor de código" para "arquiteto e revisor".
+- Migrar do papel de "escritor" para "arquiteto" e "revisor".
 
 ## 📅 Estrutura do Programa
 
@@ -59,4 +59,4 @@ Para aproveitar ao máximo o curso, recomenda-se:
 - Familiaridade básica com terminal e Git.
 
 ---
-*Este material é parte do treinamento "Cirurgia: Engenheiro de Software IA".*
+*Este material é parte do treinamento "Cirurgia: Engenheiria de Software com auxilio de IA".*

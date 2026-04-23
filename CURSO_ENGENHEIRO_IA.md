@@ -3,7 +3,7 @@
 Este curso é desenhado para desenvolvedores tradicionais que querem dominar o uso de IA para acelerar o desenvolvimento, garantir qualidade e automatizar tarefas chatas do dia a dia.
 
 ## Estrutura Geral
-- **Duração:** 12 encontros.
+- **Duração:** 7 encontros.
 - **Carga Horária:** 2h 30min por encontro.
 - **Foco:** Produtividade, Clean Code, Testes, Arquitetura e Automação com IA.
 
@@ -11,76 +11,46 @@ Este curso é desenhado para desenvolvedores tradicionais que querem dominar o u
 
 ## Cronograma de Encontros
 
-### [Encontro 01: O Engenheiro de Software na Era da IA](encontros/01-introducao-setup/README.md)
+### [Encontro 01: O Engenheiro de Software e o Arsenal CLI](encontros/01-fundamentos-setup-cli/README.md)
 - O novo papel do desenvolvedor: de "escritor de código" para "revisor e arquiteto".
 - Setup do arsenal: Gemini CLI e Google AI Studio.
-- Ética e segurança: O que NUNCA colar na IA.
+- **Prática:** Primeiro contato com o Gemini CLI - Indexação e compreensão de projetos via terminal.
 
 ---
 
-### Módulo 1: CLI-First & Agentic Development
-
-#### [Encontro 02: Gemini CLI Mastery e Pair Programming Agentic](encontros/02-gemini-cli-mastery/README.md)
-- **Teoria:** Contexto é Rei. Como o Gemini CLI indexa e compreende seu projeto inteiro via terminal.
-- **Prática:** Uso avançado de ferramentas integradas (Read, Search, Replace) e sub-agentes. Criando uma feature complexa de ponta a ponta sem sair do terminal.
-
-#### [Encontro 03: Prompt Engineering para Desenvolvedores](encontros/03-prompt-engineering-devs/README.md)
-- **Teoria:** Técnicas de "System Prompting" e "Role Prompting" para código.
-- **Prática:** Criando padrões de projeto (Design Patterns) e lógica complexa guiando a IA com pseudocódigo.
+### [Encontro 02: Prompt Engineering e Pair Programming Agentic](encontros/02-prompt-engineering-mastery/README.md)
+- **Teoria:** System Prompting, Role Prompting e técnicas avançadas para código.
+- **Prática:** Uso avançado do Gemini CLI (Sub-agentes, Replace, Search). Criando patterns e lógica complexa guiando a IA.
 
 ---
 
-### Módulo 2: Qualidade e Manutenção
-
-#### [Encontro 04: Testes Automatizados e Edge Cases](encontros/04-testes-qualidade-ia/README.md)
-- **Teoria:** IA como aliada do TDD. Encontrando falhas lógicas com IA.
-- **Prática:** Geração de Unit Tests, Integration e E2E (Playwright). Cobrindo 100% de um código legado.
-
-#### [Encontro 05: Debugging e Root Cause Analysis (RCA)](encontros/05-debugging-root-cause/README.md)
-- **Teoria:** Analisando logs e stack traces gigantes com IA.
-- **Prática:** Usando a IA para explicar bugs "impossíveis" e sugerir correções estruturais.
+### [Encontro 03: Ciclo de Qualidade: Testes e Debugging com IA](encontros/03-qualidade-testes-debugging/README.md)
+- **Teoria:** IA como aliada do TDD e Análise de Causa Raiz (RCA).
+- **Prática:** Geração de Unit, Integration e E2E (Playwright). Debugging de bugs "impossíveis" analisando logs e stack traces.
 
 ---
 
-### Módulo 3: Legado e Engenharia Reversa
-
-#### [Encontro 06: Refatoracao, SOLID e Clean Code](encontros/06-refatoracao-clean-code/README.md)
-- **Teoria:** Detectando "Code Smells" automaticamente.
-- **Prática:** Transformando código espaguete em código modular e tipado com ajuda da IA.
-
-#### [Encontro 07: Documentação e Onboarding Automatizado](encontros/07-documentacao-onboarding/README.md)
-- **Teoria:** Documentação viva. Usando IA para entender repositórios desconhecidos.
-- **Prática:** Geração de READMEs técnicos, diagramas de sequência e documentação de API automática.
+### [Encontro 04: Engenharia Reversa: Refatoração e Documentação](encontros/04-clean-code-documentacao/README.md)
+- **Teoria:** SOLID, Clean Code e "Documentação Viva".
+- **Prática:** Refatoração de código legado e geração automática de READMEs, diagramas Mermaid.js e documentação de API.
 
 ---
 
-### Módulo 4: Além do Código (Arquitetura e Ops)
-
-#### [Encontro 08: Arquitetura, Diagramas e Trade-offs](encontros/08-arquitetura-diagramas/README.md)
-- **Teoria:** IA como consultora de arquitetura. Mermaid.js para documentação visual.
-- **Prática:** Desenhando a arquitetura de um sistema distribuído e validando decisões com a IA.
-
-#### [Encontro 09: IA para DevSecOps e Infraestrutura (IAC)](encontros/09-devsecops-infra-iac/README.md)
-- **Teoria:** Docker, K8s e Terraform sem sofrimento.
-- **Prática:** Criando ambientes de deploy completos e analisando vulnerabilidades de segurança no código.
+### [Encontro 05: Arquitetura, Infraestrutura e DevSecOps](encontros/05-arquitetura-infra-devops/README.md)
+- **Teoria:** IA como consultora de arquitetura e facilitadora de Ops.
+- **Prática:** Design de sistemas distribuídos, Docker, Terraform e análise de vulnerabilidades de segurança com IA.
 
 ---
 
-### Módulo 5: Automação e Futuro
-
-#### [Encontro 10: Automação de Workflows com Scripts de IA](encontros/10-automacao-workflows-scripts/README.md)
-- **Teoria:** Criando suas próprias ferramentas de produtividade.
-- **Prática:** Desenvolvendo scripts CLI em Python/Bash para automatizar tarefas repetitivas do seu time.
-
-#### [Encontro 11: Agentes de Desenvolvimento (O Futuro do Trabalho)](encontros/11-agentes-desenvolvimento/README.md)
-- **Teoria:** Agentes autônomos (OpenDevin, GPT-Engineer). Delegando tickets reais.
-- **Prática:** Configurando um agente para resolver um bug ou implementar uma melhoria de forma autônoma.
+### [Encontro 06: O Futuro: Automação e Agentes Autônomos](encontros/06-automacao-agentes/README.md)
+- **Teoria:** Criando suas ferramentas e delegando para agentes (OpenDevin, GPT-Engineer).
+- **Prática:** Desenvolvimento de scripts de automação CLI e configuração de agentes para resolver tickets de forma autônoma.
 
 ---
 
-### [Encontro 12: Formatura e Showcase de Produtividade](encontros/12-formatura-showcase/README.md)
-- Apresentação de um workflow ou ferramenta criada durante o curso.
-- Discussão: Como se manter atualizado em um campo que muda todo dia.
+### [Encontro 07: Formatura e Showcase de Projetos](encontros/07-formatura-showcase/README.md)
+- Apresentação de um workflow, script ou projeto desenvolvido durante o curso.
+- Discussão: Carreira e evolução contínua na era da IA.
 - Encerramento e Certificação.
 
 ---
