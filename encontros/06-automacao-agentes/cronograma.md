@@ -20,10 +20,10 @@
 
 ## 1. Conceito (30 min)
 - **Agentes Autônomos:** O funcionamento de ferramentas que navegam no repositório, rodam testes e corrigem bugs de forma independente.
-- **Missão e Execução:** Como agentes como Aider e GPT-Engineer recebem e executam tarefas complexas.
+- **Missão e Execução:** Como sub-agentes do Gemini CLI recebem e executam tarefas complexas.
 
 ## 2. Live Coding (1h 15min)
-- Demonstração prática dos conceitos de Agentes Autônomos (Aider, Devin).
+- Demonstração prática dos conceitos de Agentes Autônomos (Sub-agentes integrados).
 - Resolução de problemas reais usando Gemini CLI.
 
 ## 3. Laboratório (45 min)

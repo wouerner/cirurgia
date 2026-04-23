@@ -3,7 +3,7 @@
 # Cronograma Detalhado: Encontro 01 (2h 30min)
 
 ### 1. Conceito: A Mentalidade 10x (30 min)
-- **Abertura:** O fim da era do "Copilot" (apenas sugestões) e o início da era "Agentic" (execução autônoma).
+- **Abertura:** O fim da era do IDEs tradicionais (apenas sugestões) e o início da era "Agentic" (execução autônoma).
 - **Novo Papel:** Por que saber *ler* código e entender *arquitetura* tornou-se mais importante do que decorar sintaxe.
 - **Segurança:** Demonstração do que acontece se você vazar uma chave de API e como o Gemini CLI ajuda a prevenir isso respeitando o `.gitignore`.
 

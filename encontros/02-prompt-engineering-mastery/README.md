@@ -32,8 +32,8 @@
 # Encontro 03: Prompt Engineering para Desenvolvedores
 
 ## Tecnologias Recomendadas
-- **Claude.ai (Artifacts)**
-- **ChatGPT (GPTs customizados)**
+- **Gemini CLI (Sub-agentes e Contexto)**
+- **Gemini CLI (System Prompts e Custom Sub-agents)**
 - **Prompts estruturados em Markdown**
 
 ## Teoria

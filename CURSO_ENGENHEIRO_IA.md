@@ -43,8 +43,8 @@ Este curso é desenhado para desenvolvedores tradicionais que querem dominar o u
 ---
 
 ### [Encontro 06: O Futuro: Automação e Agentes Autônomos](encontros/06-automacao-agentes/README.md)
-- **Teoria:** Criando suas ferramentas e delegando para agentes (OpenDevin, GPT-Engineer).
-- **Prática:** Desenvolvimento de scripts de automação CLI e configuração de agentes para resolver tickets de forma autônoma.
+- **Teoria:** Criando suas ferramentas e delegando para sub-agentes integrados.
+- **Prática:** Desenvolvimento de scripts de automação CLI e configuração de sub-agentes para resolver tickets de forma autônoma.
 
 ---
 

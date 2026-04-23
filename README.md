@@ -1,62 +1,56 @@
 # Curso Engenheiro de Software IA: Produtividade 10x
 
-Este repositório contém o material, cronograma e laboratórios do curso **Engenheiro de Software na Era da IA**. O objetivo deste treinamento é transformar desenvolvedores tradicionais em profissionais de elite, utilizando Inteligência Artificial para acelerar o desenvolvimento, melhorar a qualidade do código e automatizar processos.
+Este repositório contém o material, cronograma e laboratórios do curso **Engenheiro de Software na Era da IA**. O objetivo deste treinamento é transformar desenvolvedores tradicionais em profissionais de elite, utilizando o **Gemini CLI** para acelerar o desenvolvimento, garantir a qualidade do código e automatizar processos complexos.
 
 ## 🎯 Objetivo do Curso
 
-Capacitar engenheiros de software a dominarem o "arsenal de IA" (Cursor, GitHub Copilot, Claude, ChatGPT, Agentes Autônomos) para:
-- Aumentar a produtividade em até 10%.
-- Melhorar a qualidade do código com testes e refatoração assistida.
-- Automatizar tarefas de infraestrutura, documentação e fluxos de trabalho.
-- Migrar do papel de "escritor" para "arquiteto" e "revisor".
+Capacitar engenheiros de software a dominarem o **Gemini CLI** e o workflow de **Agentic Development** para:
+- Aumentar a produtividade em até 10x através de automação inteligente.
+- Garantir a qualidade do código com testes, refatoração e debugging assistidos por IA.
+- Automatizar tarefas de infraestrutura, arquitetura e fluxos de trabalho via terminal.
+- Migrar do papel de "escritor de código" para "arquiteto e revisor de sistemas".
 
-## 📅 Estrutura do Programa
+## 📅 Estrutura do Programa (7 Encontros)
 
-O curso é dividido em 12 encontros práticos, estruturados da seguinte forma:
+O curso é estruturado em encontros práticos e densos:
 
-### Módulo 0: Fundamentos e Setup
-*   **Encontro 01:** O novo papel do dev, setup do arsenal e ética/segurança.
-
-### Módulo 1: Coding & IDE Mastery
-*   **Encontro 02:** Domínio do Cursor, contexto e pair programming.
-*   **Encontro 03:** Prompt Engineering avançado e Design Patterns.
-
-### Módulo 2: Qualidade e Manutenção
-*   **Encontro 04:** TDD com IA, Edge Cases e cobertura de 100%.
-*   **Encontro 05:** Debugging complexo e Root Cause Analysis (RCA).
-
-### Módulo 3: Legado e Engenharia Reversa
-*   **Encontro 06:** Refatoração, SOLID e Clean Code automatizado.
-*   **Encontro 07:** Documentação viva, diagramas e onboarding.
-
-### Módulo 4: Além do Código (Arquitetura e Ops)
-*   **Encontro 08:** Arquitetura de sistemas e diagramas com Mermaid.js.
-*   **Encontro 09:** DevSecOps, Infra as Code (IaC) e segurança.
-
-### Módulo 5: Automação e Futuro
-*   **Encontro 10:** Criação de ferramentas CLI e scripts de automação.
-*   **Encontro 11:** Agentes de Desenvolvimento autônomos.
-*   **Encontro 12:** Showcase de produtividade e formatura.
+1. **Encontro 01: O Engenheiro de Software e o Arsenal CLI**
+   - Setup, fundamentos e primeiro contato com indexação de projetos.
+2. **Encontro 02: Prompt Engineering e Pair Programming Agentic**
+   - Técnicas avançadas e uso de sub-agentes integrados.
+3. **Encontro 03: Ciclo de Qualidade: Testes e Debugging com IA**
+   - TDD assistido, RCA e resolução de bugs complexos.
+4. **Encontro 04: Engenharia Reversa: Refatoração e Documentação**
+   - SOLID, Clean Code e geração de documentação viva.
+5. **Encontro 05: Arquitetura, Infraestrutura e DevSecOps**
+   - Design de sistemas, IaC e segurança automatizada.
+6. **Encontro 06: O Futuro: Automação e Agentes Autônomos**
+   - Criação de ferramentas próprias e delegação para agentes.
+7. **Encontro 07: Formatura e Showcase de Projetos**
+   - Apresentação de workflows e encerramento.
 
 ## 📂 Estrutura do Repositório
 
 ```text
 .
 ├── CURSO_ENGENHEIRO_IA.md  # Plano de curso detalhado
-└── encontros/               # Detalhes de cada aula/módulo
-    ├── 01-introducao-setup.md
-    ├── 02-ide-mastery-cursor.md
-    ├── ...
-    └── 12-formatura-showcase.md
+└── encontros/               # Materiais de cada encontro
+    ├── 01-fundamentos-setup-cli/
+    ├── 02-prompt-engineering-mastery/
+    ├── 03-qualidade-testes-debugging/
+    ├── 04-clean-code-documentacao/
+    ├── 05-arquitetura-infra-devops/
+    ├── 06-automacao-agentes/
+    └── 07-formatura-showcase/
 ```
 
 ## 🛠️ Requisitos Sugeridos
 
 Para aproveitar ao máximo o curso, recomenda-se:
 - Experiência prévia em desenvolvimento de software.
-- [Cursor IDE](https://cursor.sh/) instalado.
-- Acesso a modelos de linguagem avançados (GPT-4, Claude 3.5 Sonnet).
+- **Gemini CLI** instalado e configurado.
+- Chave de API do Google AI Studio.
 - Familiaridade básica com terminal e Git.
 
 ---
-*Este material é parte do treinamento "Cirurgia: Engenheiria de Software com auxilio de IA".*
+*Este material é parte do treinamento "Curso Engenheiro de Software IA (Produtividade 10x)".*

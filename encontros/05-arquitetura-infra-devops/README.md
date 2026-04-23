@@ -5,7 +5,7 @@
 ## Tecnologias Recomendadas
 - **Mermaid.js (Editor Live)**
 - **Eraser.io**
-- **ChatGPT (GPT-4 / Claude 3 Opus)**
+- **Gemini CLI (Flash / Pro models)**
 
 ## Teoria
 A IA não deve apenas "cuspir" código, ela deve servir como uma **consultora sênior**. Em decisões de arquitetura, podemos pedir para ela analisar trade-offs entre, por exemplo, Monolito vs Microserviços para um caso específico.
