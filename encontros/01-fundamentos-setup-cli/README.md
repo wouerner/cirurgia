@@ -26,6 +26,10 @@ O papel do desenvolvedor está mudando drasticamente. Deixamos de ser meros "dig
 - **Terminal Moderno:** Warp, iTerm2 ou Windows Terminal.
 - **Aliases de Terminal:** Crie atalhos para comandos frequentes do Gemini CLI para ganhar agilidade.
 
+## Exercícios e Prática
+- [💡 Ideias de Projeto](exercicios-e-prompts/ideias_de_projeto.md)
+- [💬 Prompts Essenciais](exercicios-e-prompts/prompts_essenciais.md)
+
 ## Exercício Prático
 1. Realize a instalação do **Gemini CLI** em sua máquina.
 2. Configure sua `GOOGLE_API_KEY` no ambiente.
