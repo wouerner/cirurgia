@@ -45,4 +45,4 @@
 ## Slide 6: Conclusão - O Salto de Produtividade
 - Menos tempo brigando com sintaxe.
 - Mais tempo resolvendo problemas de negócio.
-- **O Objetivo:** Ser 10x mais rápido sendo 100% mais crítico.
+- **O Objetivo:** Ser 10% melhor sendo 100% mais crítico.
