@@ -30,6 +30,10 @@ Código legado não é apenas código antigo, é código sem testes e difícil d
 - **Mermaid Live Editor:** Para visualizar os diagramas gerados pela IA.
 - **Doxygen / JSDoc:** Para estruturar a documentação de código.
 
+## Exercícios e Prática
+- [💡 Ideias de Projeto](exercicios-e-prompts/ideias_de_projeto.md)
+- [💬 Prompts Essenciais](exercicios-e-prompts/prompts_essenciais.md)
+
 ## Exercício Prático
 1. Escolha um "arquivo espaguete" no seu repositório.
 2. Peça ao Gemini CLI: "Explique o que este arquivo faz em alto nível e sugira 3 refatorações para torná-lo mais legível".

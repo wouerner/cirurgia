@@ -25,6 +25,10 @@ Como integrar o Gemini CLI em scripts Bash para processar arquivos em lote ou re
 ## Sugestões de Ferramentas
 - **Gemini CLI Custom Agents:** Crie agentes especializados para tarefas de nicho no seu projeto.
 
+## Exercícios e Prática
+- [💡 Ideias de Projeto](exercicios-e-prompts/ideias_de_projeto.md)
+- [💬 Prompts Essenciais](exercicios-e-prompts/prompts_essenciais.md)
+
 ## Exercício Prático
 1. Utilize o comando `invoke_agent` para delegar tarefas complexas aos sub-agentes do Gemini CLI.
 2. Dê a ele uma tarefa média: "Crie uma nova página de perfil de usuário com campos para Nome, Bio e Foto de Perfil, integrando com a API existente".

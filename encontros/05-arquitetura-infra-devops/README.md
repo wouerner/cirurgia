@@ -29,6 +29,10 @@ A IA não serve apenas para escrever funções, ela pode ser uma **Consultora de
 - **Trivy / Snyk:** Para validar os arquivos de infra gerados pela IA.
 - **AWS Architecture Icons:** Para referência visual em diagramas.
 
+## Exercícios e Prática
+- [💡 Ideias de Projeto](exercicios-e-prompts/ideias_de_projeto.md)
+- [💬 Prompts Essenciais](exercicios-e-prompts/prompts_essenciais.md)
+
 ## Exercício Prático
 1. Peça à IA para analisar seu `package.json` ou `requirements.txt` em busca de dependências com vulnerabilidades conhecidas.
 2. Gere um setup completo de deploy (Dockerfile + CI/CD config) para um projeto simples do seu repositório.

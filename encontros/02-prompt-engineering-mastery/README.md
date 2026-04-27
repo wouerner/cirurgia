@@ -30,6 +30,10 @@
 - **.geminiignore:** Configure arquivos e pastas que a IA deve ignorar para economizar tokens e garantir segurança.
 - **Custom Sub-agents:** Crie seus próprios agentes com instruções específicas para o seu projeto.
 
+## Exercícios e Prática
+- [💡 Ideias de Projeto](exercicios-e-prompts/ideias_de_projeto.md)
+- [💬 Prompts Essenciais](exercicios-e-prompts/prompts_essenciais.md)
+
 ## Exercício Prático
 1. Abra um projeto existente no terminal.
 2. Peça ao Gemini CLI: "Analise este repositório e crie um relatório técnico sobre as tecnologias utilizadas e a arquitetura geral do projeto."

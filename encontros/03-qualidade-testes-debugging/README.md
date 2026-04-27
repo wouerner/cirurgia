@@ -30,6 +30,10 @@ A IA é uma aliada formidável no **Test-Driven Development (TDD)** e na **Anál
 - **Coverage Reports:** Use para mostrar à IA quais linhas ainda não têm testes.
 - **Terminal Moderno:** Para facilitar a visualização de traces e logs extensos.
 
+## Exercícios e Prática
+- [💡 Ideias de Projeto](exercicios-e-prompts/ideias_de_projeto.md)
+- [💬 Prompts Essenciais](exercicios-e-prompts/prompts_essenciais.md)
+
 ## Exercício Prático
 1. Escolha uma lógica de negócio sem testes ou um bug conhecido.
 2. Peça ao Gemini CLI: "Escreva uma suíte de testes unitários para este arquivo, garantindo que o mock do banco de dados seja isolado".

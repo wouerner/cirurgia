@@ -23,6 +23,9 @@ Chegamos ao fim da jornada. O objetivo deste encontro é consolidar o aprendizad
 - **TLDR Newsletter:** Para se manter atualizado.
 - **ProductHunt:** Para descobrir novas ferramentas de IA de nicho.
 
+## Materiais de Apoio
+- [✅ Checklist do Showcase](exercicios-e-prompts/checklist_showcase.md)
+
 ## Exercício Prático
 1. Apresente um workflow ou uma pequena ferramenta que você criou durante o curso.
 2. Reflita: Qual tarefa você levava horas e agora leva minutos?
