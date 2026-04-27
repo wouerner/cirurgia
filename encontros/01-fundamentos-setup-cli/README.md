@@ -26,6 +26,9 @@ O papel do desenvolvedor está mudando drasticamente. Deixamos de ser meros "dig
 - **Terminal Moderno:** Warp, iTerm2 ou Windows Terminal.
 - **Aliases de Terminal:** Crie atalhos para comandos frequentes do Gemini CLI para ganhar agilidade.
 
+## Tutoriais de Apoio
+- [🚀 Instalação Sem Root](TUTORIAL_INSTALL_NO_ROOT.md)
+
 ## Exercícios e Prática
 - [💡 Ideias de Projeto](exercicios-e-prompts/ideias_de_projeto.md)
 - [💬 Prompts Essenciais](exercicios-e-prompts/prompts_essenciais.md)
