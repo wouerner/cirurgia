@@ -14,23 +14,19 @@ Capacitar engenheiros de software a dominarem o **Gemini CLI** e o workflow de *
 - Automatizar tarefas de infraestrutura, arquitetura e fluxos de trabalho via terminal.
 - Migrar do papel de "escritor de código" para "arquiteto e revisor de sistemas".
 
-## 📅 Estrutura do Programa (7 Encontros)
+## 📅 Estrutura do Programa (5 Encontros)
 
 O curso é estruturado em encontros práticos e densos:
 
-1. **[Encontro 01: O Engenheiro de Software e o Arsenal CLI](encontros/01-fundamentos-setup-cli/README.md)**
-   - Setup, fundamentos e primeiro contato com indexação de projetos.
-2. **[Encontro 02: Prompt Engineering e Pair Programming Agentic](encontros/02-prompt-engineering-mastery/README.md)**
-   - Técnicas avançadas e uso de sub-agentes integrados.
-3. **[Encontro 03: Ciclo de Qualidade: Testes e Debugging com IA](encontros/03-qualidade-testes-debugging/README.md)**
-   - TDD assistido, RCA e resolução de bugs complexos.
-4. **[Encontro 04: Engenharia Reversa: Refatoração e Documentação](encontros/04-clean-code-documentacao/README.md)**
-   - SOLID, Clean Code e geração de documentação viva.
-5. **[Encontro 05: Arquitetura, Infraestrutura e DevSecOps](encontros/05-arquitetura-infra-devops/README.md)**
+1. **[Encontro 01: Fundamentos CLI e Engenharia de Prompt](encontros/01-fundamentos-e-prompt-engineering/README.md)**
+   - Setup, fundamentos, indexação e técnicas avançadas de Prompting.
+2. **[Encontro 02: Engenharia de Código Limpo e Qualidade](encontros/02-codigo-limpo-e-qualidade/README.md)**
+   - TDD, RCA, Refatoração SOLID e Documentação Viva.
+3. **[Encontro 03: Arquitetura, Infraestrutura e DevSecOps](encontros/03-arquitetura-infra-devops/README.md)**
    - Design de sistemas, IaC e segurança automatizada.
-6. **[Encontro 06: O Futuro: Automação e Agentes Autônomos](encontros/06-automacao-agentes/README.md)**
+4. **[Encontro 04: O Futuro: Automação e Agentes Autônomos](encontros/04-automacao-agentes/README.md)**
    - Criação de ferramentas próprias e delegação para agentes.
-7. **[Encontro 07: Formatura e Showcase de Projetos](encontros/07-formatura-showcase/README.md)**
+5. **[Encontro 05: Formatura e Showcase de Projetos](encontros/05-formatura-showcase/README.md)**
    - Apresentação de workflows e encerramento.
 
 ## 📂 Estrutura do Repositório
@@ -39,13 +35,11 @@ O curso é estruturado em encontros práticos e densos:
 .
 ├── CURSO_ENGENHEIRO_IA.md  # Plano de curso detalhado
 └── encontros/               # Materiais de cada encontro
-    ├── 01-fundamentos-setup-cli/
-    ├── 02-prompt-engineering-mastery/
-    ├── 03-qualidade-testes-debugging/
-    ├── 04-clean-code-documentacao/
-    ├── 05-arquitetura-infra-devops/
-    ├── 06-automacao-agentes/
-    └── 07-formatura-showcase/
+    ├── 01-fundamentos-e-prompt-engineering/
+    ├── 02-codigo-limpo-e-qualidade/
+    ├── 03-arquitetura-infra-devops/
+    ├── 04-automacao-agentes/
+    └── 05-formatura-showcase/
 ```
 
 ## 🛠️ Requisitos Sugeridos

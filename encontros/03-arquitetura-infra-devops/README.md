@@ -1,6 +1,6 @@
 [<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
-# Encontro 05: Arquitetura, Infraestrutura e DevSecOps
+# Encontro 03: Arquitetura, Infraestrutura e DevSecOps
 
 ## Tecnologias Recomendadas
 - **Docker / Kubernetes (K8s)**

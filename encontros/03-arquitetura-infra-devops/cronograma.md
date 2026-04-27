@@ -1,6 +1,6 @@
 [<- Voltar ao Conteúdo](README.md)
 
-# Cronograma Detalhado: Encontro 05 (2h 30min)
+# Cronograma Detalhado: Encontro 03 (2h 30min)
 
 ### 1. Conceito: IA como Consultora de Sistemas (30 min)
 - **Arquitetura Distribuída:** Validando decisões de mensageria, cache e banco de dados com a IA.

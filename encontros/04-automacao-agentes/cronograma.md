@@ -1,6 +1,6 @@
 [<- Voltar ao Conteúdo](README.md)
 
-# Cronograma Detalhado: Encontro 06 (2h 30min)
+# Cronograma Detalhado: Encontro 04 (2h 30min)
 
 ### 1. Conceito: Agentes e Automação Customizada (30 min)
 - **Além dos Comandos:** Criando seus próprios sub-agentes com instruções de domínio.
@@ -14,4 +14,4 @@
 
 ### 3. Laboratório: Engenheiro de Automação (45 min)
 - **Desafio:** Criar um script ou sub-agente que automatize uma tarefa chata do seu dia a dia (ex: geração de mocks, triagem de logs ou auditoria de PRs).
-- **Showcase Prep:** Início da preparação para a apresentação final do encontro 07.
+- **Showcase Prep:** Início da preparação para a apresentação final do encontro 05.

@@ -1,6 +1,6 @@
 [<- Voltar ao Índice](../../CURSO_ENGENHEIRO_IA.md) | [📅 Ver Cronograma](cronograma.md)
 
-# Encontro 06: O Futuro: Automação e Agentes Autônomos
+# Encontro 04: O Futuro: Automação e Agentes Autônomos
 
 ## Tecnologias Recomendadas
 - **Gemini CLI (Sub-agentes)**
