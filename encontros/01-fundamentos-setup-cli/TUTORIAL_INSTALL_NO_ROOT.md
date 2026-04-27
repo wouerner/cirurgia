@@ -52,13 +52,42 @@ Se você já tem o Node.js e não quer usar NVM, pode configurar o `npm` para in
    npm install -g @google/gemini-cli
    ```
 
-## Verificação
+## Verificação da Instalação
 
-Após a instalação por qualquer um dos métodos, verifique se o comando está disponível:
+Após seguir um dos métodos acima, execute os comandos abaixo para garantir que tudo está configurado corretamente:
 
+### 1. Validar a presença no PATH
+Este comando deve retornar o caminho onde o `gemini` foi instalado. Se não retornar nada, o seu `PATH` ainda não reconhece o diretório.
+```bash
+which gemini
+```
+
+### 2. Verificar a versão
+Confirma se o binário está respondendo e qual versão foi instalada:
 ```bash
 gemini --version
 ```
 
+### 3. Testar o comando de ajuda
+Valida se todas as dependências do CLI foram instaladas corretamente:
+```bash
+gemini --help
+```
+
+### 4. Testar Diagnóstico de Ambiente
+O Gemini CLI possui um comando interno que ajuda a identificar se há algo errado com sua configuração:
+```bash
+gemini system-info
+```
+
 ---
-*Dica: Lembre-se de configurar sua `GOOGLE_API_KEY` após a instalação.*
+
+## "Não funcionou, e agora?" (Troubleshooting)
+
+Se o comando `gemini` não for encontrado:
+1. **Recarregue seu shell:** `source ~/.bashrc` (ou `~/.zshrc`).
+2. **Verifique o Prefix:** No caso da Opção 2, rode `npm config get prefix` e veja se ele aponta para o local correto.
+3. **Node.js:** Verifique se sua versão do Node é superior à 18: `node -v`.
+
+---
+*Dica: Após validar a instalação, não esqueça de configurar sua `GOOGLE_API_KEY` para começar a usar!*
