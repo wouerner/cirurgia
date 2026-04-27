@@ -74,11 +74,14 @@ Valida se todas as dependências do CLI foram instaladas corretamente:
 gemini --help
 ```
 
-### 4. Testar Diagnóstico de Ambiente
-O Gemini CLI possui um comando interno que ajuda a identificar se há algo errado com sua configuração:
+### 4. Testar Diagnóstico e Comandos Internos
+O Gemini CLI utiliza comandos iniciados com `/` dentro da sessão interativa para tarefas administrativas. Para ver informações detalhadas sobre sua instalação e ambiente, entre no Gemini e use o comando `/about`:
 ```bash
-gemini system-info
+gemini
+# Uma vez dentro da sessão:
+/about
 ```
+Para sair da sessão, use `/exit` ou pressione `Ctrl+D`.
 
 ---
 

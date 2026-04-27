@@ -17,19 +17,19 @@ Agentes são o próximo nível da IA. Diferente de um chat onde você precisa co
 
 ## Exemplos Práticos
 ### Prompt para Sub-agentes do Gemini CLI
-"Utilize o comando `invoke_agent` para delegar a seguinte tarefa: 'Pesquise onde a validação de endereço ocorre no checkout e torne o campo de número opcional, atualizando todos os testes afetados'."
+"@generalist Pesquise onde a validação de endereço ocorre no checkout e torne o campo de número opcional, atualizando todos os testes afetados."
 
 ### Scripts de Automação
 Como integrar o Gemini CLI em scripts Bash para processar arquivos em lote ou realizar auditorias de código automáticas.
 
 ## Sugestões de Ferramentas
-- **Gemini CLI Custom Agents:** Crie agentes especializados para tarefas de nicho no seu projeto.
+- **Gemini CLI Sub-agents:** Utilize a sintaxe `@` para chamar agentes específicos (ex: `@codebase_investigator`, `@generalist`).
 
 ## Exercícios e Prática
 - [💡 Ideias de Projeto](exercicios-e-prompts/ideias_de_projeto.md)
 - [💬 Prompts Essenciais](exercicios-e-prompts/prompts_essenciais.md)
 
 ## Exercício Prático
-1. Utilize o comando `invoke_agent` para delegar tarefas complexas aos sub-agentes do Gemini CLI.
+1. Utilize a sintaxe `@agent_name` para delegar tarefas complexas aos sub-agentes do Gemini CLI.
 2. Dê a ele uma tarefa média: "Crie uma nova página de perfil de usuário com campos para Nome, Bio e Foto de Perfil, integrando com a API existente".
 3. Desenvolva um script simples (Python ou Shell) que use o Gemini CLI para gerar um resumo de mudanças (Changelog) baseado no `git diff` da última semana.

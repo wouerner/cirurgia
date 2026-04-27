@@ -17,7 +17,8 @@
 
 ### Recursos Chave (Agentic Workflow):
 - **Tool-Based Research:** O Gemini CLI usa ferramentas como `grep_search`, `glob` e `read_file` para construir seu próprio contexto sob demanda.
-- **Plan Mode:** Use o modo de planejamento para mudanças complexas antes de tocar no código.
+- **Sub-agentes e a Sintaxe `@`:** Use `@nome_do_agente` (ex: `@generalist`, `@codebase_investigator`) para delegar tarefas a agentes especializados diretamente no prompt.
+- **Plan Mode:** Use o comando `/plan` ou o modo de planejamento para mudanças complexas antes de tocar no código.
 
 ## Exemplos Práticos
 ### Prompt de Análise Agentic

@@ -4,7 +4,7 @@ Foco em Automação Avançada, Agentes Autônomos e Scripts Customizados.
 
 ## 1. Delegação de Missão para Sub-Agente
 ```text
-Utilize o sub-agente especializado para a seguinte missão: "Localize todos os arquivos de configuração de ambiente, valide se as variáveis obrigatórias estão documentadas no `.env.example` e, se não estiverem, atualize o arquivo automaticamente."
+@generalist Localize todos os arquivos de configuração de ambiente, valide se as variáveis obrigatórias estão documentadas no `.env.example` e, se não estiverem, atualize o arquivo automaticamente.
 ```
 
 ## 2. Criação de Script de Automação de Changelog
