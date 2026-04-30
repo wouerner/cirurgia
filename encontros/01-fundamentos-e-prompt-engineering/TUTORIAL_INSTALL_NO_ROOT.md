@@ -19,12 +19,13 @@ O **n** é um gerenciador de versões do Node.js focado em simplicidade. No Ubun
    ```
 
 3. **Persista as configurações no seu shell:**
-   Adicione as linhas abaixo ao final do seu arquivo `~/.bashrc` (ou `~/.zshrc` se usar Zsh):
+   Execute os comandos abaixo para adicionar as variáveis ao seu `~/.bashrc` e recarregar a sessão:
    ```bash
-   export N_PREFIX=$HOME/.n
-   export PATH=$N_PREFIX/bin:$PATH
+   echo 'export N_PREFIX=$HOME/.n' >> ~/.bashrc
+   echo 'export PATH=$N_PREFIX/bin:$PATH' >> ~/.bashrc
+   source ~/.bashrc
    ```
-   Depois, recarregue o arquivo: `source ~/.bashrc`.
+   *(Se você usa Zsh, substitua `~/.bashrc` por `~/.zshrc` nos comandos acima)*
 
 4. **Instale o Gemini CLI:**
    ```bash
