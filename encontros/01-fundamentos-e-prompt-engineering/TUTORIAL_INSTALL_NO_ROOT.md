@@ -1,21 +1,41 @@
 # Guia de Instalação Sem Root (Linux/macOS)
 
-Neste guia, veremos como instalar o `@google/gemini-cli` sem a necessidade de usar `sudo`.
+Neste guia, veremos como preparar seu ambiente e instalar o `@google/gemini-cli` de forma profissional, sem a necessidade de usar `sudo`.
 
-## Opção 1: Usando n (Interativo e Simples)
+## Passo 1: Configurando o Prefixo Global
 
-O **n** é um gerenciador de versões do Node.js focado em simplicidade. No Ubuntu, você pode instalá-lo e configurar o ambiente localmente sem root:
+Este passo garante que qualquer pacote instalado via `npm -g` vá para sua pasta de usuário, evitando erros de permissão e a necessidade de `sudo`.
 
-1. **Prepare o diretório e as variáveis de ambiente:**
-   Execute estes comandos para criar a estrutura necessária e configurar o PATH:
+1. **Crie o diretório para instalações globais:**
+   ```bash
+   mkdir ~/.npm-global
+   ```
+
+2. **Configure o seu Shell:**
+   Adicione o novo caminho ao seu `PATH` para que o sistema encontre os comandos instalados:
+   ```bash
+   echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
+   source ~/.bashrc
+   ```
+
+3. **Configure o npm:**
+   *(Nota: Se você ainda não tem o Node.js/npm instalado, realize o Passo 2 primeiro e depois execute este comando).*
+   ```bash
+   npm config set prefix '~/.npm-global'
+   ```
+
+## Passo 2: Instalando o Node.js (via n)
+
+Se você ainda não tem o Node.js ou quer uma forma simples e leve de gerenciar versões sem precisar de root:
+
+1. **Prepare o ambiente e o diretório de binários:**
    ```bash
    export N_PREFIX=$HOME/.n
    export PATH=$N_PREFIX/bin:$PATH
    mkdir -p $N_PREFIX/bin
    ```
 
-2. **Baixe o binário do 'n' e instale o Node.js LTS:**
-   Isso instala o próprio gerenciador `n` e a versão mais recente e estável do Node.js:
+2. **Baixe o gerenciador 'n' e instale o Node.js LTS:**
    ```bash
    curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o $N_PREFIX/bin/n
    chmod +x $N_PREFIX/bin/n
@@ -23,99 +43,37 @@ O **n** é um gerenciador de versões do Node.js focado em simplicidade. No Ubun
    ```
 
 3. **Persista as configurações no seu shell:**
-   Execute os comandos abaixo para que o `n` e o `node` estejam sempre disponíveis ao abrir o terminal:
    ```bash
    echo 'export N_PREFIX=$HOME/.n' >> ~/.bashrc
    echo 'export PATH=$N_PREFIX/bin:$PATH' >> ~/.bashrc
    source ~/.bashrc
    ```
-   *(Se você usa Zsh, substitua `~/.bashrc` por `~/.zshrc` nos comandos acima)*
 
-4. **Instale o Gemini CLI:**
-   ```bash
-   npm install -g @google/gemini-cli
-   ```
+## Passo 3: Instalando o Gemini CLI
 
-## Opção 2: Usando NVM (Recomendado)
+Com o ambiente configurado e o Node.js pronto, a instalação do CLI é direta e segura:
 
-O **NVM (Node Version Manager)** permite gerenciar múltiplas versões do Node.js em seu diretório de usuário, instalando pacotes globais sem precisar de root.
+```bash
+npm install -g @google/gemini-cli
+```
 
-1. **Instale o NVM:**
-   ```bash
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-   ```
-
-2. **Carregue o NVM (ou reinicie seu terminal):**
-   ```bash
-   export NVM_DIR="$HOME/.nvm"
-   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-   ```
-
-3. **Instale uma versão do Node.js:**
-   ```bash
-   nvm install --lts
-   ```
-
-4. **Instale o Gemini CLI:**
-   ```bash
-   npm install -g @google/gemini-cli
-   ```
-
-## Opção 3: Configurando um Prefix Global Local
-
-Se você já tem o Node.js e não quer usar NVM ou n, pode configurar o `npm` para instalar pacotes globais em sua pasta `home`.
-
-1. **Crie um diretório para instalações globais:**
-   ```bash
-   mkdir ~/.npm-global
-   ```
-
-2. **Configure o npm para usar o novo caminho:**
-   ```bash
-   npm config set prefix '~/.npm-global'
-   ```
-
-3. **Adicione o caminho ao seu `.bashrc` ou `.zshrc`:**
-   ```bash
-   echo 'export PATH=~/.npm-global/bin:$PATH' >> ~/.bashrc
-   source ~/.bashrc
-   ```
-
-4. **Instale o Gemini CLI:**
-   ```bash
-   npm install -g @google/gemini-cli
-   ```
+---
 
 ## Verificação da Instalação
 
-Após seguir um dos métodos acima, execute os comandos abaixo para garantir que tudo está configurado corretamente:
+Após seguir os passos acima, execute os comandos abaixo para garantir que tudo está configurado corretamente:
 
 ### 1. Validar a presença no PATH
-Este comando deve retornar o caminho onde o `gemini` foi instalado. Se não retornar nada, o seu `PATH` ainda não reconhece o diretório.
+Este comando deve retornar um caminho dentro de `~/.npm-global` ou `~/.n`.
 ```bash
 which gemini
 ```
 
-### 2. Verificar a versão
-Confirma se o binário está respondendo e qual versão foi instalada:
+### 2. Verificar a versão e ajuda
 ```bash
 gemini --version
-```
-
-### 3. Testar o comando de ajuda
-Valida se todas as dependências do CLI foram instaladas corretamente:
-```bash
 gemini --help
 ```
-
-### 4. Testar Diagnóstico e Comandos Internos
-O Gemini CLI utiliza comandos iniciados com `/` dentro da sessão interativa para tarefas administrativas. Para ver informações detalhadas sobre sua instalação e ambiente, entre no Gemini e use o comando `/about`:
-```bash
-gemini
-# Uma vez dentro da sessão:
-/about
-```
-Para sair da sessão, use `/exit` ou pressione `Ctrl+D`.
 
 ---
 
@@ -123,8 +81,8 @@ Para sair da sessão, use `/exit` ou pressione `Ctrl+D`.
 
 Se o comando `gemini` não for encontrado:
 1. **Recarregue seu shell:** `source ~/.bashrc` (ou `~/.zshrc`).
-2. **Verifique os Caminhos:** No caso das Opções 1 e 2, verifique se as variáveis de ambiente (N_PREFIX ou NVM_DIR) estão presentes no seu arquivo de configuração do shell. Na Opção 3, rode `npm config get prefix` e veja se ele aponta para o local correto.
-3. **Node.js:** Verifique se sua versão do Node é superior à 18: `node -v`.
+2. **Verifique as Variáveis:** Rode `env | grep -E "PATH|N_PREFIX"` e veja se os caminhos configurados aparecem lá.
+3. **Zsh:** Se você usa Zsh (comum no macOS e versões recentes do Ubuntu), lembre-se de aplicar as mudanças no `~/.zshrc`.
 
 ---
 *Dica: Após validar a instalação, não esqueça de configurar sua `GOOGLE_API_KEY` para começar a usar!*
