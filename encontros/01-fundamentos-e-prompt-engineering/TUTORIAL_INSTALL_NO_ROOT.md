@@ -2,7 +2,36 @@
 
 Neste guia, veremos como instalar o `@google/gemini-cli` sem a necessidade de usar `sudo`.
 
-## Opção 1: Usando NVM (Recomendado)
+## Opção 1: Usando n (Interativo e Simples)
+
+O **n** é um gerenciador de versões do Node.js focado em simplicidade. No Ubuntu, você pode instalá-lo e configurar o ambiente localmente sem root:
+
+1. **Defina as variáveis de ambiente temporariamente:**
+   Para garantir que o `n` instale o Node.js na sua pasta de usuário:
+   ```bash
+   export N_PREFIX=$HOME/.n
+   export PATH=$N_PREFIX/bin:$PATH
+   ```
+
+2. **Instale o Node.js LTS via script:**
+   ```bash
+   curl -L https://raw.githubusercontent.com/tj/n/master/bin/n | bash -s lts
+   ```
+
+3. **Persista as configurações no seu shell:**
+   Adicione as linhas abaixo ao final do seu arquivo `~/.bashrc` (ou `~/.zshrc` se usar Zsh):
+   ```bash
+   export N_PREFIX=$HOME/.n
+   export PATH=$N_PREFIX/bin:$PATH
+   ```
+   Depois, recarregue o arquivo: `source ~/.bashrc`.
+
+4. **Instale o Gemini CLI:**
+   ```bash
+   npm install -g @google/gemini-cli
+   ```
+
+## Opção 2: Usando NVM (Recomendado)
 
 O **NVM (Node Version Manager)** permite gerenciar múltiplas versões do Node.js em seu diretório de usuário, instalando pacotes globais sem precisar de root.
 
@@ -27,9 +56,9 @@ O **NVM (Node Version Manager)** permite gerenciar múltiplas versões do Node.j
    npm install -g @google/gemini-cli
    ```
 
-## Opção 2: Configurando um Prefix Global Local
+## Opção 3: Configurando um Prefix Global Local
 
-Se você já tem o Node.js e não quer usar NVM, pode configurar o `npm` para instalar pacotes globais em sua pasta `home`.
+Se você já tem o Node.js e não quer usar NVM ou n, pode configurar o `npm` para instalar pacotes globais em sua pasta `home`.
 
 1. **Crie um diretório para instalações globais:**
    ```bash
@@ -89,7 +118,7 @@ Para sair da sessão, use `/exit` ou pressione `Ctrl+D`.
 
 Se o comando `gemini` não for encontrado:
 1. **Recarregue seu shell:** `source ~/.bashrc` (ou `~/.zshrc`).
-2. **Verifique o Prefix:** No caso da Opção 2, rode `npm config get prefix` e veja se ele aponta para o local correto.
+2. **Verifique os Caminhos:** No caso das Opções 1 e 2, verifique se as variáveis de ambiente (N_PREFIX ou NVM_DIR) estão presentes no seu arquivo de configuração do shell. Na Opção 3, rode `npm config get prefix` e veja se ele aponta para o local correto.
 3. **Node.js:** Verifique se sua versão do Node é superior à 18: `node -v`.
 
 ---
