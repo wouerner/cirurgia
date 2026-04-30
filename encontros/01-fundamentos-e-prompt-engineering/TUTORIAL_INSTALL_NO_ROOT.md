@@ -6,20 +6,24 @@ Neste guia, veremos como instalar o `@google/gemini-cli` sem a necessidade de us
 
 O **n** é um gerenciador de versões do Node.js focado em simplicidade. No Ubuntu, você pode instalá-lo e configurar o ambiente localmente sem root:
 
-1. **Defina as variáveis de ambiente temporariamente:**
-   Para garantir que o `n` instale o Node.js na sua pasta de usuário:
+1. **Prepare o diretório e as variáveis de ambiente:**
+   Execute estes comandos para criar a estrutura necessária e configurar o PATH:
    ```bash
    export N_PREFIX=$HOME/.n
    export PATH=$N_PREFIX/bin:$PATH
+   mkdir -p $N_PREFIX/bin
    ```
 
-2. **Instale o Node.js LTS via script:**
+2. **Baixe o binário do 'n' e instale o Node.js LTS:**
+   Isso instala o próprio gerenciador `n` e a versão mais recente e estável do Node.js:
    ```bash
-   curl -L https://raw.githubusercontent.com/tj/n/master/bin/n | bash -s lts
+   curl -L https://raw.githubusercontent.com/tj/n/master/bin/n -o $N_PREFIX/bin/n
+   chmod +x $N_PREFIX/bin/n
+   n lts
    ```
 
 3. **Persista as configurações no seu shell:**
-   Execute os comandos abaixo para adicionar as variáveis ao seu `~/.bashrc` e recarregar a sessão:
+   Execute os comandos abaixo para que o `n` e o `node` estejam sempre disponíveis ao abrir o terminal:
    ```bash
    echo 'export N_PREFIX=$HOME/.n' >> ~/.bashrc
    echo 'export PATH=$N_PREFIX/bin:$PATH' >> ~/.bashrc
