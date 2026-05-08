@@ -29,6 +29,7 @@ O papel do desenvolvedor está mudando: de "digitador de código" para **arquite
 
 ## Tutoriais de Apoio
 - [🚀 Instalação Sem Root](TUTORIAL_INSTALL_NO_ROOT.md)
+- [📚 Materiais de Referência](referencias.md)
 
 ## Exercícios e Prática
 - [💡 Ideias de Projeto](exercicios-e-prompts/ideias_de_projeto.md)

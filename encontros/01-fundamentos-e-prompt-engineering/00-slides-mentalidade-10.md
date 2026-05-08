@@ -1,5 +1,5 @@
 # Slides: A Mentalidade 10% 🚀
-## Encontro 01 - Cirúrgico: Engenheiro de Software com IA
+## Encontro 01
 
 ---
 
@@ -7,7 +7,7 @@
 - **O Fato:** A IA consegue gerar 90% do código "braçal" (boilerplate, CRUDs, testes básicos).
 - **O Desafio:** Os 10% restantes são onde o valor real reside.
 - **Seu Novo Papel:** Você não é mais o "operário da tecla"; você é o **Arquiteto e Revisor**.
-- **A Meta:** Usar a IA para fazer o trabalho pesado e focar na estratégia e qualidade.
+- **A Meta:** Usar a IA para fazer o trabalho pesado e focar na estratégia, qualidade e negócio.
 
 ---
 
